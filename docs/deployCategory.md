@@ -27,7 +27,8 @@ In order for the change to show up on the site, cache will need to be refreshed.
 In code, this can be accomplished with `library.rebuild(include_toc=True)`
 
 
-##Examples:
+##Examples
+
 ```
 from sefaria.helper.category import move_index_into, create_category
 
