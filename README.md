@@ -1,6 +1,9 @@
-# Documentation for common text engineering tasks using Sefaria
+# Documentation for common content engineering tasks using Sefaria
 
-https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+This repo will contain how-tos for common content engineering tasks in Sefaria.  
+It could also contain snippets of code or templates that could be useful for these tasks. 
+
+For reference, this file and others like it are written using [markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 
 ## Deploying 
@@ -17,7 +20,7 @@ https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting
 
 ## Refactoring
 
-### Make programmatic changes to textual content -
+### Make programmatic changes to textual content
 
 ### Add node to existing complex text
 	
