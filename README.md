@@ -8,37 +8,39 @@ For reference, this file and others like it are written using [markdown](https:/
 
 ## Deploying 
 
-[Deploy new Index](./deployIndex.md)
+[Deploy new Index](./docs/deployIndex.md)
 
-### Deploy new version
+[Deploy new version](./docs/deployVersion.md)
 
-### Deploy links
+[Deploy links](./docs/deployLinks.md)
 
-### Creating New Category
+[Creating New Category](./docs/deployCategory.md)
 
 
 
 ## Refactoring
 
-### Make programmatic changes to textual content
+[Change text according to a pattern](./docs/changeTextPattern.md)
 
-### Add node to existing complex text
+[Add node to existing complex text](./docs/addSchemaNode.md)
 	
-### Add alt struct to existing Index
+[Add alt struct to existing Index](./docs/addAltStruct.md)
 
-### Change title of Index
+[Change title of Index](./docs/changeIndexTitle.md)
 
-### Change titles of index node
+[Change titles of index node](./docs/changeIndexNodeTitle.md)
 	
-### Change title of Version
+[Change title of Version](./docs/changeVersionTitle.md)
 
-### Adding numbers to chapters of a complex text
+[Move Index into a new Category](./docs/moveIndexIntoCategory.md)
 
-### Change Address Types	
+[Adding numbers to chapters of a complex text](./docs/addNumbersToSchemaNode.md)
+
+[Change Address Types](./docs/changeAddressType.md)	
   
-### Renaming Category
+[Renaming Category](./docs/renameCategory.md)
 
-### Move Category to new parent
+[Move Category to new parent](./docs/moveCategoryToNewParent.md)
 
 	
 
