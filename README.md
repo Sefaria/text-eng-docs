@@ -8,7 +8,7 @@ For reference, this file and others like it are written using [markdown](https:/
 
 ## Deploying 
 
-### Deploy new Index
+[Deploy new Index](./deployIndex.md)
 
 ### Deploy new version
 
