@@ -1,6 +1,6 @@
-#Move Category to new Parent
+# Move Category to new Parent
 
-#Rename Category
+# Rename Category
 
 There's a utility in Sefaria-Project for renaming categories.
 ```
@@ -22,7 +22,7 @@ In order for the change to show up on the site, cache will need to be refreshed.
 In code, this can be accomplished with `library.rebuild(include_toc=True)`
 
 
-##Examples
+## Examples
 Move the category that was `Tanaitic/Minor Tractates` to be `Talmud/Bavli/Minor Tractates`
 ```
 c = Category().load({'path': ["Tanaitic", "Minor Tractates"]})
@@ -30,7 +30,7 @@ p = Category().load({"path": ["Talmud", "Bavli"]})
 move_category_into(c, p)
 ``` 
 
-##Downstream impacts
+## Downstream impacts
 
 * Search Filters
 * URLs of TOC pages

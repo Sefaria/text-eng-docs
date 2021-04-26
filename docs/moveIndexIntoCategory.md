@@ -1,4 +1,4 @@
-#Move Index into new Category
+# Move Index into new Category
 
 There's a utility in Sefaria-Project for moving an Index into a new category.
 ```
@@ -19,7 +19,7 @@ In order for the change to show up on the site, cache will need to be refreshed.
 In code, this can be accomplished with `library.rebuild(include_toc=True)`
 
 
-##Examples:
+## Examples:
 ```
 from sefaria.helper.category import move_index_into, create_category
 
