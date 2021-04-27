@@ -22,6 +22,8 @@ For reference, this file and others like it are written using [markdown](https:/
 
 [Change text according to a pattern](./docs/changeTextPattern.md)
 
+[Convert simple text to complex text](./docs/convertToComplexText.md)
+
 [Add node to existing complex text](./docs/addSchemaNode.md)
 	
 [Add alt struct to existing Index](./docs/addAltStruct.md)
