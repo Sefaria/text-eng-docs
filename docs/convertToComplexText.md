@@ -20,4 +20,5 @@ i = library.get_index("Ploni")
 convert_simple_index_to_complex(i)
 ```
 
-## Move Jagged Array below Schema Node of complex text:
+## Other ways to convert simple to complex text???
+I'm sure there are other ways of converting a simple to complex text besides adding a default node, but not sure what they are.
