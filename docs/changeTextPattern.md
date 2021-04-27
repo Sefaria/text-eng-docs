@@ -1,6 +1,10 @@
 # Change text according to a pattern
 E.g. fixing common typos, replacing one encoding of characters with another, changing punctuation.  In one version, or in many versions.
 
+## Warning
+**These methods run EXTREMLEY slowly on production environments**
+It is recommended that this issue be addressed ASAP
+
 ### sefaria.helper.text.modify_text_by_function(title:str, vtitle:str, lang:str, rewrite_function:Callable, uid:int, needs_rewrite_function:Callable=lambda x: True, **kwargs) -> None:
 More fine-grained approach to modifying text.
 Takes title and version and runs `rewrite_function` for every segment.
