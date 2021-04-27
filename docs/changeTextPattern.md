@@ -13,6 +13,17 @@ Parameters:
 - needs_rewrite_function: Callable that takes a JaggedArray and returns True if JaggedArray should be modified
 - **kwargs: see sefaria.tracker.modify_text (and lower functions) for kwargs
 
+### Example: Replacing dash with space only when vayomer is in segment or is the first segment in the chapter (toy example)
+
+```python
+from sefaria.helper.text import modify_text_by_function
+def modifier(text, sections):
+    if sections[-1] == 0 or "ויאמר" in text:
+        return text.replace('־', ' ')
+    return text
+for title in library.get_indexes_in_category('Tanakh'):
+    modify_text_by_function(title, 'Tanach with Text Only', 'he', modifier, 5842, skip_links=True)
+```
 
 ### sefaria.helper.text.find_and_replace_in_text(title:str, vtitle:str, lang:str, find_string:str, replace_string:str, uid:int) -> None:
 Simplest way to find and replace strings in text.
