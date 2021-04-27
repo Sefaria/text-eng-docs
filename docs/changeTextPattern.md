@@ -2,7 +2,7 @@
 E.g. fixing common typos, replacing one encoding of characters with another, changing punctuation.  In one version, or in many versions.
 
 ### sefaria.helper.text.modify_text_by_function(title:str, vtitle:str, lang:str, rewrite_function:Callable, uid:int, needs_rewrite_function:Callable=lambda x: True, **kwargs) -> None:
-
+More fine-grained approach to modifying text.
 Takes title and version and runs `rewrite_function` for every segment.
 Parameters:
 - title: Title of index
@@ -15,6 +15,7 @@ Parameters:
 
 
 ### sefaria.helper.text.find_and_replace_in_text(title:str, vtitle:str, lang:str, find_string:str, replace_string:str, uid:int) -> None:
+Simplest way to find and replace strings in text.
 - title: Title of index
 - vtitle: Version title
 - lang: Language of version. Either 'he' or 'en'
