@@ -1,5 +1,7 @@
 # Change title of index node
 
+**_Major bugs have been found in the helper methods here. Do not attempt such a change at this time_**
+
 ### Changing Standard Titles
 
 A convenience function exists. The function `change_node_title` can be found at  
