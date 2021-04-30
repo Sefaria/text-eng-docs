@@ -44,5 +44,7 @@ For reference, this file and others like it are written using [markdown](https:/
 
 [Move Category to new parent](./docs/moveCategoryToNewParent.md)
 
+[Add collective title to index](./docs/addingCollectiveTitle.md)
+
 	
 
