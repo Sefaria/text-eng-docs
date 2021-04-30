@@ -36,7 +36,7 @@ For reference, this file and others like it are written using [markdown](https:/
 
 [Move Index into a new Category](./docs/moveIndexIntoCategory.md)
 
-[Adding numbers to chapters of a complex text](./docs/addNumbersToSchemaNode.md)
+[Adding numbers to chapters of a complex text](./docs/addNumbersToSchemaNode.md) (aka: using JaggedArrayNodes as parents of JaggedArrayNodes. BONUS: using default node as parent)
 
 [Change Address Types](./docs/changeAddressType.md)	
   
