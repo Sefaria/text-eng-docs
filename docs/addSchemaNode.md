@@ -22,3 +22,10 @@ insert_last_child(outro, parent)
 e.g. 
 
 https://trello.com/c/gCHOXynD
+
+for the intro node you can use:
+
+```python
+from sources.functions import def create_intro
+intro = create_intro()
+```
